@@ -13,4 +13,8 @@ CREATE TABLE IF NOT EXISTS reservation(
    Numro telephone varchar(20)
   );
 
-  
+CREATE TABLE IF NOT EXISTS Test (
+  ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Name_Test varchare (20),
+  Date_Test varchare(20)
+  );
